@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#CCCCCC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/formulario_cita"
+            android:textSize="20dp"
+            android:padding="25dp"
+            android:background="#7C4DFF"
+            android:textAlignment="center"
+            android:textStyle="italic|bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#CCCCCC">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_seleccion_modulo"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:background="#E14747"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_entidad"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxEntidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_municipio"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_modulo"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxModulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_fecha"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/txtFechaHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="datetime"
+                />
+        </LinearLayout>
+
+<!--
+        <CalendarView
+            android:id="@+id/txtHorario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"/>
+
+        <TimePicker
+            android:id="@+id/txtHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp" />
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#CCCCCC">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_seleccion_documento"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:background="#E14747"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_seleccion_ciudadano"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxCiudadanos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#CCCCCC">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_seleccion_documento"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:background="#E14747"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_tramite"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxTramite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_documento_nacionalidad"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxDocumentoNacionalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formulario_comprobante_domicilio"
+                android:paddingBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/cbxComprobanteDomicilio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_guardar"/>
+    </LinearLayout>
+</ScrollView>

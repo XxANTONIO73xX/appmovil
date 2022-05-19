@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cita</string>
+    <string name="btn_agregar">Nueva cita</string>
+    <string name="btn_consultar">Consultar citas</string>
+    <string name="btn_guardar">Guardar Cita</string>
+    <string name="btn_guardarCiudadano">Guardar Ciudadano</string>
+
+    <string name="menu_visualizar">Visualizar</string>
+    <string name="menu_cancelar">Cancelar</string>
+
+    <string name="formulario_cita">Informacion de cita</string>
+    <string name="formulario_seleccion_modulo">Selecciona un módulo, fecha y horario</string>
+    <string name="formulario_entidad">Entidad federativa</string>
+    <string name="formulario_municipio">Delegacion / Municipio</string>
+    <string name="formulario_modulo">Modulo</string>
+    <string name="formulario_fecha">Selecciona una fecha y hora</string>
+
+    <string name="formulario_seleccion_documento">Selecciona tus documentos</string>
+    <string name="formulario_tramite">Tramite a realizar</string>
+    <string name="formulario_documento_nacionalidad">Documento de nacionalidad</string>
+    <string name="formulario_documento_identidad">Documento de identidad</string>
+    <string name="formulario_comprobante_domicilio">Comprobante de domicilio</string>
+
+    <string name="formulario_personal">Informacion personal </string>
+    <string name="formulario_informacion_personal">Llena tus datos</string>
+    <string name="formulario_seleccion_ciudadano">Selecciona tu ciudadano</string>
+
+    <string name="formulario_nombre">Nombre</string>
+
+</resources>
